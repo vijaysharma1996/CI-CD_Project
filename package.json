@@ -11,5 +11,7 @@
   },
   "scripts": {
     "dev": "tsx src/index.ts"
+    "buid":"..."
+    "test": "..."
   }
 }
