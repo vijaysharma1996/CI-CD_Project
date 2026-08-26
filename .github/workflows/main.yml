@@ -1,24 +1,17 @@
 name: My First CI
-on: 
+
+on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   test:
-    runs-on:
-ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      -name: Say Hello
-        run:echo
-"hello from github actions"
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions"
 
-      -name: check
-Runnner
-        run: |
-        echo "CICD is working "
-        whoami
-        pwd
-        ls
-    
+      - name: Check CI/CD
+        run: echo "CI/CD is working!"
